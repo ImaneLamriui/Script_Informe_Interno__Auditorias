@@ -50,4 +50,3 @@ Documentación de entornos internos y laboratorios de pruebas.
 ⚠️ Nota
 
 Este script no realiza escaneo de red ni extracción de datos reales.
-Debe usarse únicamente con información legítima o ficticia, con fines educativos y de documentación.
