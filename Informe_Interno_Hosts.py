@@ -74,9 +74,8 @@ for h in hosts:
 pdf.output(PDF_FILE)
 print(f"[ok] PDF textual generado: {PDF_FILE}")
 
-# ----------------------------
 # Generar HTML y abrir en navegador
-# ----------------------------
+
 with open(HTML_FILE, "w", encoding="utf-8") as f:
     f.write("<html><body><h2>Informe Interno de Hosts – Versión Auditoría</h2><table border='1' cellpadding='4'>")
     f.write("<tr><th>Hostname</th><th>IP</th><th>RDNS</th></tr>")
