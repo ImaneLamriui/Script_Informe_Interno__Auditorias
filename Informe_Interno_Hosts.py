@@ -5,10 +5,13 @@ Script simplificado para generar CSV de hosts, PDF textual y HTML interactivo.
 Datos: hostname, IP, RDNS (ficticios).
 """
 
+__author__ = "Imane Lamriui"
+__version__ = "1.0"
+__license__ = "MIT"
+
 import csv, os, random, webbrowser
 from fpdf import FPDF
 from datetime import datetime
-
 
 # Configuración y datos
 
