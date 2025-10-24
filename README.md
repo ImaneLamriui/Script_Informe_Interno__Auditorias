@@ -16,8 +16,7 @@ Está diseñado para **auditorías, inventarios de red y procesos de documentaci
 
 ```
 pip install fpdf==1.7.2
-
-
+```
 
 📂 Uso
 1️⃣ Generar un CSV de ejemplo
@@ -25,6 +24,7 @@ pip install fpdf==1.7.2
 ```
 python Informe_Interno_Hosts.py --sample hosts_demo.csv
 
+```
 
 
 2️⃣ Crear el PDF a partir del CSV
@@ -32,15 +32,18 @@ python Informe_Interno_Hosts.py --sample hosts_demo.csv
 ```
 python Informe_Interno_Hosts.py --input hosts_demo.csv --output informe_hosts.pdf
 
+```
 
 El script genera un archivo PDF con la estructura:
 
 Informe Interno de Hosts – Versión Auditoría
 ---------------------------------------------
+
 Hostname: panel8.lab.internal  |  IP: 192.0.211.244  |  RDNS: host-961.lab.internal
+
 Hostname: admin25.service.test  |  IP: 192.0.122.54  |  RDNS: host-269.service.test
 
-```
+
 ## Aplicaciones Prácticas
 
 Inventario de infraestructura en auditorías técnicas.
