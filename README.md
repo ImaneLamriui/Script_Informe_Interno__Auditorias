@@ -1,4 +1,6 @@
-# Informe Interno de Hosts – Versión Auditoría
+# 🧾 Informe Interno de Hosts
+
+Generación automática de reportes técnicos en PDF a partir de datos CSV.
 
 Este proyecto demuestra cómo generar un **informe técnico en PDF** a partir de un archivo CSV con datos de hosts (nombre, IP, RDNS).  
 Está diseñado para **auditorías, inventarios de red y procesos de documentación técnica**.
